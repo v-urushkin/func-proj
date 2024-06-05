@@ -6,7 +6,7 @@
 ;; построения графика (т.е. вызываться многократно в разных точках)
 ;; 3.2. Оптимизируйте функцию с помощью бесконечной последовательности частичных решений
 
-(ns first-view.task-3.task-3-2 (:use clojure.test))
+(ns task-3.task-3-2 (:use clojure.test))
 
 (defn trapezoidal-step
   ([func x0] (trapezoidal-step func x0 0.01))
